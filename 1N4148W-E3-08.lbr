@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="VISHAY_1N4148W-E3-08_0">
+                    <description>Diode Standard 75V 150mA Surface Mount SOD-123</description>
+                    <wire layer="51" y2="0.775" width="0.15" x2="-1.35" y1="-0.775" x1="-1.35"/>
+                    <wire layer="51" y2="0.775" width="0.15" x2="1.35" y1="0.775" x1="-1.35"/>
+                    <wire layer="51" y2="-0.775" width="0.15" x2="1.35" y1="0.775" x1="1.35"/>
+                    <wire layer="51" y2="-0.775" width="0.15" x2="-1.35" y1="-0.775" x1="1.35"/>
+                    <wire layer="41" y2="0.95" width="0.1" x2="-2.2" y1="-0.95" x1="-2.2"/>
+                    <wire layer="41" y2="0.95" width="0.1" x2="2.2" y1="0.95" x1="-2.2"/>
+                    <wire layer="41" y2="-0.95" width="0.1" x2="2.2" y1="0.95" x1="2.2"/>
+                    <wire layer="41" y2="-0.95" width="0.1" x2="-2.2" y1="-0.95" x1="2.2"/>
+                    <wire layer="21" y2="0.775" width="0.15" x2="0.9" y1="0.775" x1="-0.9"/>
+                    <wire layer="21" y2="-0.775" width="0.15" x2="0.9" y1="-0.775" x1="-0.9"/>
+                    <wire layer="21" y2="-0.7" width="0.3" x2="-0.6" y1="0.7" x1="-0.6"/>
+                    <text layer="25" align="bottom-left" y="1.275" x="-2.075" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.85" dy="0.85" y="0.0" x="-1.675" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.85" dy="0.85" y="0.0" x="1.675" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="VISHAY_1N4148W-E3-08_0_0">
+                    <description>Diode Standard 75V 150mA Surface Mount SOD-123</description>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="2.54" y1="-2.54" x1="2.54"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="7.62" y1="-2.54" x1="7.62"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="7.62" y1="-2.54" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="7.62" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="2.54" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="7.62" y1="-5.08" x1="7.62"/>
+                    <text layer="95" align="top-left" y="0.508" x="1.016" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-8.636" x="1.27" rot="R0" size="2.54">1N4148W-E3-08</text>
+                    <pin name="ANODE" visible="pad" length="middle" y="-5.08" x="-2.54"/>
+                    <pin name="CATHODE" visible="pad" length="middle" y="-5.08" x="12.7" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="D" name="VISHAY_1N4148W-E3-08">
+                    <description>Diode Standard 75V 150mA Surface Mount SOD-123</description>
+                    <gates>
+                        <gate name="G$0" symbol="VISHAY_1N4148W-E3-08_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="VISHAY_1N4148W-E3-08_0_0" package="VISHAY_1N4148W-E3-08_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="CATHODE"/>
+                                <connect gate="G$0" pad="2" pin="ANODE"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="78-1N4148W-E3-08"/>
+                                    <attribute name="temperature_range_high" value="+150°C"/>
+                                    <attribute name="MPN" value="1N4148W-E3-08"/>
+                                    <attribute name="digikey_description" value="Diode Standard 75V 150mA Surface Mount SOD-123"/>
+                                    <attribute name="digikey_part_number" value="1N4148W-E3-08CT-ND"/>
+                                    <attribute name="prefix" value="D"/>
+                                    <attribute name="Current_-_Average_Rectified_(Io)" value="150mA"/>
+                                    <attribute name="datasheet" value="http://www.vishay.com/docs/85748/1n4148w.pdf"/>
+                                    <attribute name="Voltage_-_Forward_(Vf)_(Max)_@_If" value="1.2V @ 100mA"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="Voltage_-_DC_Reverse_(Vr)_(Max)" value="75V"/>
+                                    <attribute name="package" value="SOD123"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="MF" value="Vishay"/>
+                                    <attribute name="Diode_Type" value="Standard"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
