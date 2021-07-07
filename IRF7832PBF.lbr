@@ -61,7 +61,7 @@
 
 Created by Upverter.com</description>
 <packages>
-<package name="INFINEON_IRF7832PBF_0">
+<package name="IRF7832PBF_0">
 <description>MOSFET N-CH 30V 20A 8-SOIC</description>
 <wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.15" layer="51"/>
 <wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.15" layer="51"/>
@@ -86,7 +86,7 @@ Created by Upverter.com</description>
 <smd name="7" x="2.34" y="0.635" dx="1.78" dy="0.72" layer="1"/>
 <smd name="8" x="2.34" y="1.905" dx="1.78" dy="0.72" layer="1"/>
 </package>
-<package name="INFINEON_IRF7832PBF_1">
+<package name="IRF7832PBF_1">
 <description>MOSFET N-CH 30V 20A 8-SOIC</description>
 <wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.15" layer="51"/>
 <wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.15" layer="51"/>
@@ -111,7 +111,7 @@ Created by Upverter.com</description>
 <smd name="7" x="2.416" y="0.635" dx="2.474" dy="0.623" layer="1" roundness="100"/>
 <smd name="8" x="2.416" y="1.905" dx="2.474" dy="0.623" layer="1" roundness="100"/>
 </package>
-<package name="INFINEON_IRF7832PBF_2">
+<package name="IRF7832PBF_2">
 <description>MOSFET N-CH 30V 20A 8-SOIC</description>
 <wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.15" layer="51"/>
 <wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.15" layer="51"/>
@@ -136,7 +136,7 @@ Created by Upverter.com</description>
 <smd name="7" x="2.366" y="0.635" dx="2.174" dy="0.583" layer="1" roundness="100"/>
 <smd name="8" x="2.366" y="1.905" dx="2.174" dy="0.583" layer="1" roundness="100"/>
 </package>
-<package name="INFINEON_IRF7832PBF_3">
+<package name="IRF7832PBF_3">
 <description>MOSFET N-CH 30V 20A 8-SOIC</description>
 <wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.15" layer="51"/>
 <wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.15" layer="51"/>
@@ -161,7 +161,7 @@ Created by Upverter.com</description>
 <smd name="7" x="2.316" y="0.635" dx="1.874" dy="0.543" layer="1" roundness="100"/>
 <smd name="8" x="2.316" y="1.905" dx="1.874" dy="0.543" layer="1" roundness="100"/>
 </package>
-<package name="INFINEON_IRF7832PBF_4">
+<package name="IRF7832PBF_4">
 <wire x1="1.9" y1="-2.4" x2="-1.9" y2="-2.4" width="0.2032" layer="51"/>
 <wire x1="-1.9" y1="-2.4" x2="-1.9" y2="2.4" width="0.2032" layer="51"/>
 <wire x1="-1.9" y1="2.4" x2="1.9" y2="2.4" width="0.2032" layer="51"/>
@@ -188,7 +188,7 @@ Created by Upverter.com</description>
 </package>
 </packages>
 <symbols>
-<symbol name="INFINEON_IRF7832PBF_0_0">
+<symbol name="IRF7832PBF_0_0">
 <description>MOSFET N-CH 30V 20A 8-SOIC</description>
 <wire x1="-4.064" y1="-2.54" x2="-4.064" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-3.302" y1="1.524" x2="-3.302" y2="2.54" width="0.254" layer="94"/>
@@ -206,7 +206,7 @@ Created by Upverter.com</description>
 <wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.15" layer="94"/>
 <wire x1="0" y1="5.08" x2="0" y2="4.572" width="0.15" layer="94"/>
 <text x="3.556" y="2.032" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="3.556" y="-0.508" size="1.778" layer="95" align="top-left">IRF7832</text>
+<text x="3.556" y="-0.508" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 <pin name="G" x="-10.16" y="0" visible="pad" length="middle" direction="pas"/>
 <pin name="1_S" x="0" y="-7.62" visible="pad" length="middle" direction="pas" rot="R90"/>
 <pin name="1_D" x="0" y="7.62" visible="pad" length="middle" direction="pas" rot="R270"/>
@@ -226,13 +226,13 @@ Created by Upverter.com</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="INFINEON_IRF7832PBF" prefix="Q">
+<deviceset name="IRF7832PBF" prefix="Q">
 <description>MOSFET N-CH 30V 20A 8-SOIC</description>
 <gates>
-<gate name="G$0" symbol="INFINEON_IRF7832PBF_0_0" x="0" y="0"/>
+<gate name="G$0" symbol="IRF7832PBF_0_0" x="0" y="0"/>
 </gates>
 <devices>
-<device name="INFINEON_IRF7832PBF_0_0" package="INFINEON_IRF7832PBF_0">
+<device name="INFINEON_IRF7832PBF_0_0" package="IRF7832PBF_0">
 <connects>
 <connect gate="G$0" pin="1_D" pad="5 6 7 8"/>
 <connect gate="G$0" pin="1_S" pad="1 2 3"/>
@@ -297,7 +297,7 @@ Created by Upverter.com</description>
 </technology>
 </technologies>
 </device>
-<device name="INFINEON_IRF7832PBF_0_1" package="INFINEON_IRF7832PBF_1">
+<device name="INFINEON_IRF7832PBF_0_1" package="IRF7832PBF_1">
 <connects>
 <connect gate="G$0" pin="1_D" pad="5 6 7 8"/>
 <connect gate="G$0" pin="1_S" pad="1 2 3"/>
@@ -362,7 +362,7 @@ Created by Upverter.com</description>
 </technology>
 </technologies>
 </device>
-<device name="INFINEON_IRF7832PBF_0_2" package="INFINEON_IRF7832PBF_2">
+<device name="INFINEON_IRF7832PBF_0_2" package="IRF7832PBF_2">
 <connects>
 <connect gate="G$0" pin="1_D" pad="5 6 7 8"/>
 <connect gate="G$0" pin="1_S" pad="1 2 3"/>
@@ -427,7 +427,7 @@ Created by Upverter.com</description>
 </technology>
 </technologies>
 </device>
-<device name="INFINEON_IRF7832PBF_0_3" package="INFINEON_IRF7832PBF_3">
+<device name="INFINEON_IRF7832PBF_0_3" package="IRF7832PBF_3">
 <connects>
 <connect gate="G$0" pin="1_D" pad="5 6 7 8"/>
 <connect gate="G$0" pin="1_S" pad="1 2 3"/>
@@ -492,7 +492,7 @@ Created by Upverter.com</description>
 </technology>
 </technologies>
 </device>
-<device name="" package="INFINEON_IRF7832PBF_4">
+<device name="" package="IRF7832PBF_4">
 <connects>
 <connect gate="G$0" pin="1_D" pad="5 6 7 8"/>
 <connect gate="G$0" pin="1_S" pad="1 2 3"/>

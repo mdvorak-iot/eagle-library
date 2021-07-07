@@ -236,7 +236,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IRLML6402" prefix="Q" uservalue="yes">
+<deviceset name="IRLML6402" prefix="Q">
 <description>&lt;b&gt;P-Channel MOSFET Transistor, 3.7 A, 20 V, 3-Pin SOT-23 International Rectifier IRLML6402&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.infineon.com/dgdl/Infineon-IRLML6402-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a401535668d5c2263c"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
